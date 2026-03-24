@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-11-11T14:05:58.232862",
+  "colaboradores": [
+    {
+      "nome": "Felipe",
+      "departamento": "Backend",
+      "horas": 480,
+      "pausas": 2,
+      "estresse": 3,
+      "tarefas": 5
+    },
+    {
+      "nome": "Augusto",
+      "departamento": "Frontend",
+      "horas": 540,
+      "pausas": 4,
+      "estresse": 5,
+      "tarefas": 8
+    },
+    {
+      "nome": "Sofia",
+      "departamento": "Dados",
+      "horas": 420,
+      "pausas": 6,
+      "estresse": 4,
+      "tarefas": 9
+    },
+    {
+      "nome": "Leonardo",
+      "departamento": "Scrum Master",
+      "horas": 240,
+      "pausas": 4,
+      "estresse": 1,
+      "tarefas": 5
+    },
+    {
+      "nome": "Bruno",
+      "departamento": "Cloud",
+      "horas": 360,
+      "pausas": 3,
+      "estresse": 2,
+      "tarefas": 4
+    }
+  ],
+  "estatisticas": {
+    "media_horas": 408,
+    "desvio_horas": 103,
+    "media_estresse": 3.0,
+    "mediana_estresse": 3.0,
+    "max_horas": 540,
+    "min_horas": 240
+  },
+  "insights": {
+    "riscos": {
+      "critico": [],
+      "moderado": [
+        "Augusto",
+        "Sofia"
+      ],
+      "baixo": [
+        "Felipe",
+        "Leonardo",
+        "Bruno"
+      ]
+    },
+    "tendencias": {
+      "correlacao_horas_estresse": 0.9041944301794651,
+      "percentil_25_estresse": 2.0,
+      "percentil_75_estresse": 4.0,
+      "media_pausas": 3.8,
+      "media_tarefas": 6.2
+    },
+    "previsao": {
+      "coeficientes": {
+        "bias": -4.0,
+        "horas_minutos": 0.012992,
+        "pausas": 0.4472
+      },
+      "rmse": 0.1295,
+      "previstos": {
+        "Felipe": 3.13,
+        "Augusto": 4.8,
+        "Sofia": 4.14,
+        "Leonardo": 0.91,
+        "Bruno": 2.02
+      }
+    },
+    "recomendacoes": {
+      "Felipe": "Manter acompanhamento periódico e reforçar boas práticas.",
+      "Augusto": "Promover coaching de produtividade e revisar cronogramas semanais.",
+      "Sofia": "Promover coaching de produtividade e revisar cronogramas semanais.",
+      "Leonardo": "Manter acompanhamento periódico e reforçar boas práticas.",
+      "Bruno": "Manter acompanhamento periódico e reforçar boas práticas."
+    }
+  }
+}

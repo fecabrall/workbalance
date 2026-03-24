@@ -1,0 +1,67 @@
+RELATÓRIO WORKBALANCE AI
+------------------------------------------------------------
+Data/Hora: 2025-11-11 14:05:58
+Total de colaboradores: 5
+
+Indicadores principais:
+- Média de horas trabalhadas: 06:48
+- Desvio padrão de horas: 01:43
+- Média de estresse: 3.00
+- Mediana de estresse: 3.00
+- Faixa de horas: 04:00 a 09:00
+- Colaborador(es) mais estressado(s): Augusto
+- Colaboradores com 5+ tarefas: ['Felipe', 'Augusto', 'Sofia', 'Leonardo']
+- Alerta de equilíbrio (estresse >=4 e pausas <=1): Nenhum
+
+Análise de riscos:
+- Risco crítico: ['Nenhum']
+- Risco moderado: ['Augusto', 'Sofia']
+- Risco baixo: ['Felipe', 'Leonardo', 'Bruno']
+
+Análise por departamento:
+- Backend:
+  Pessoas: 1, média de horas: 08:00, média de estresse: 3.0
+  Total de tarefas: 5
+- Frontend:
+  Pessoas: 1, média de horas: 09:00, média de estresse: 5.0
+  Total de tarefas: 8
+- Dados:
+  Pessoas: 1, média de horas: 07:00, média de estresse: 4.0
+  Total de tarefas: 9
+- Scrum Master:
+  Pessoas: 1, média de horas: 04:00, média de estresse: 1.0
+  Total de tarefas: 5
+- Cloud:
+  Pessoas: 1, média de horas: 06:00, média de estresse: 2.0
+  Total de tarefas: 4
+
+Tendências gerais:
+- Correlação horas x estresse: 0.90
+- Percentil 25 de estresse: 2.00
+- Percentil 75 de estresse: 4.00
+- Média de pausas: 3.80
+- Média de tarefas: 6.20
+
+Previsão de estresse (regressão linear):
+- Coeficientes: bias=-4.0000, horas_minutos=0.012992, pausas=0.4472
+- RMSE do modelo: 0.1295
+- Estresse estimado por colaborador:
+  * Felipe: 3.13
+  * Augusto: 4.8
+  * Sofia: 4.14
+  * Leonardo: 0.91
+  * Bruno: 2.02
+
+Planos de ação sugeridos:
+- Felipe: Manter acompanhamento periódico e reforçar boas práticas.
+- Augusto: Promover coaching de produtividade e revisar cronogramas semanais.
+- Sofia: Promover coaching de produtividade e revisar cronogramas semanais.
+- Leonardo: Manter acompanhamento periódico e reforçar boas práticas.
+- Bruno: Manter acompanhamento periódico e reforçar boas práticas.
+
+Feedback individual:
+- Felipe: bom ritmo geral. Mantenha o equilíbrio entre produtividade e bem-estar.
+- Augusto: produtividade alta, mas com estresse elevado. Inclua pausas e redistribua tarefas.
+- Sofia: produtividade alta, mas com estresse elevado. Inclua pausas e redistribua tarefas.
+- Leonardo: desempenho excelente e equilíbrio saudável. Continue assim!
+- Bruno: bom ritmo geral. Mantenha o equilíbrio entre produtividade e bem-estar.
